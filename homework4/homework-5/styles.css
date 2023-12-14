@@ -1,0 +1,29 @@
+.button{
+    background-color: blueviolet;
+    font-size: 2rem;
+    font-weight: 700;
+    padding: 0.5em 1em;
+    border: 10px solid rgb(91, 5, 110) ;
+    border-radius:5px ;
+    margin-top: 10vw;
+    transition-property: transform; 
+    transition-duration:0.3s ;
+    transition-timing-function: ease ;
+    transition-delay:0.1 ;
+}
+.button:hover {
+    transform: translateY(-10px);
+    background-color: rgb(239, 14, 149) ;
+    color: white;
+    border: 10px solid rgb(239, 14, 149) ;
+} 
+.conteiner{
+    position: relative;
+    text-align: center;
+}
+.img_1{
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKmbwVps8_HrSkZWqJEa-Lb7BzerumauNIlQ&usqp=CAU);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+ 
