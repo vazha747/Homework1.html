@@ -48,3 +48,6 @@
  @keyframes move{
     from{transform: translateY(-270px);}                     
 }
+.button{
+   float: left;
+}
